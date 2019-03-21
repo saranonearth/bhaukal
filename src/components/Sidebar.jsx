@@ -44,6 +44,9 @@ class Sidebar extends Component {
     fill: '#1A1818'
   },
   bmItemList: {
+
+  	marginLeft:'45px',
+  	
     color: 'white',
     padding: '0.8em'
   },
@@ -55,9 +58,8 @@ class Sidebar extends Component {
   	transition: 'color 0.2s'
   },
 
-  bmOverlay: {
-    background: 'rgba(0, 0, 0, 0.3)'
-  }
+
+ 
 }
 
 		return (
@@ -66,6 +68,7 @@ class Sidebar extends Component {
 		        <a id="tshirts" className="menu-item" href="#tshirts">T-Shirts</a>
 		        <a id="waw" className="menu-item" href="#">Who Are We?</a>
 		        <a id="contact" className="menu-item" href="#">Contact</a>
+		        
 		      </Menu>
 		);
 	}

@@ -8,7 +8,7 @@ class Header extends Component {
 	render(){
 			var divstyles ={
 				backgroundColor: "#1A1818",
-				padding: '30px',
+				padding: '20px',
 				fontFamily: 'Dirty Brush',
 				position: 'fixed',
 				zIndex: '100',

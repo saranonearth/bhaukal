@@ -1,0 +1,32 @@
+.whoarewe{
+	background: #1A1818;
+	height: 100vh;
+	width: 100%;
+}
+
+#main-title{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	padding-top: 200px;
+	color: white;
+}
+
+#main-description{
+	color: white;
+	margin-top: 40px;
+	width: 95%;
+	
+
+}
+
+#right{
+	color: white;
+		margin-top: 20px;
+	margin-left: 75px;
+}
+
+#left{
+	color:white;
+	margin-top: 20px;
+	margin-right: 75px;
+}

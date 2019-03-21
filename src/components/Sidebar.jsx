@@ -63,7 +63,7 @@ class Sidebar extends Component {
 		return (
 		      <Menu styles={ styles } noOverlay customBurgerIcon={ false }customBurgerIcon={ <img src={Button} /> }>
 		        <a id="home" className="menu-item" href="#">Home</a>
-		        <a id="tshirts" className="menu-item" href="#">T-Shirts</a>
+		        <a id="tshirts" className="menu-item" href="#tshirts">T-Shirts</a>
 		        <a id="waw" className="menu-item" href="#">Who Are We?</a>
 		        <a id="contact" className="menu-item" href="#">Contact</a>
 		      </Menu>

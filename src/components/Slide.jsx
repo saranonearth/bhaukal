@@ -75,6 +75,7 @@ class Slide extends Component {
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
+          
         >
           <img style={imgStyle} src={item.src} alt={item.altText} />
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />

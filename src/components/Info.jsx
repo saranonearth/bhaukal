@@ -1,12 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './assets/info.css';
+import Icon from './assets/instagram.png';
 const Info=()=>{
 	
 
 	return(
 		
-			<div class="whoarewe">
+			
+			<div>
+				<div class="whoarewe" id={'About'}>
 				<Container className="text-center" >
 					<h1 id="main-title" >Who Are We?</h1>
 					<Row >
@@ -30,6 +33,15 @@ const Info=()=>{
 					
 				</Container>
 					
+				</div>
+				<div>
+					
+						<img src={Icon} alt=""/>
+					
+				</div>
+				<footer>
+					Bhaukal &copy; 2019
+				</footer>
 			</div>
 		);
 }

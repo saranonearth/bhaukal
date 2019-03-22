@@ -36,7 +36,7 @@ const Info=()=>{
 				</div>
 				<div>
 					
-						<img src={Icon} alt=""/>
+						<a href=""><img idsrc={Icon} alt="instaicon"/></a>
 					
 				</div>
 				<footer>

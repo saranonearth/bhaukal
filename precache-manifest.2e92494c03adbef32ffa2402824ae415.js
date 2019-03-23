@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/bhaukal/static/js/runtime~main.b26ec618.js"
   },
   {
-    "revision": "0f28dae974c60266cc2c",
-    "url": "/bhaukal/static/js/main.8618eda9.chunk.js"
+    "revision": "ae2014c280c668deea3d",
+    "url": "/bhaukal/static/js/main.92aaf0f0.chunk.js"
   },
   {
     "revision": "ad68d4b2fa6fe3b1b1a8",
     "url": "/bhaukal/static/js/2.bb2fabbe.chunk.js"
   },
   {
-    "revision": "0f28dae974c60266cc2c",
+    "revision": "ae2014c280c668deea3d",
     "url": "/bhaukal/static/css/main.ffef4f6b.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/bhaukal/static/css/2.95a8f255.chunk.css"
   },
   {
-    "revision": "5298d26299f710b6a229e8c54f88ac30",
+    "revision": "e6d132e2984709ad6e11193ef39dba3b",
     "url": "/bhaukal/index.html"
   }
 ];

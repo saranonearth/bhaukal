@@ -1,3 +1,3 @@
-###Bhaukal Website
+### Bhaukal Website
 
-Simple LandingPage site for ##BHAUKAL
+Simple LandingPage site for ## BHAUKAL

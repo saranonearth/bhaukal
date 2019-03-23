@@ -36,7 +36,7 @@ const Cardlist=()=>{
 	})
 	return(
 		<div id={'T-Shirts'}>
-			<h1 className="display-4 text-center mt-3">Tees</h1>
+			<h1 className="display-4 text-center mt-3" style={{fontFamily:'Roboto'}}>Tees</h1>
 			<Container className="mt-4">
 				<Row>
 					{productlist}

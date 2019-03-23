@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Sidebar from './Sidebar.jsx';
 import { Container} from 'reactstrap';
+import './assets/header.css';
 
 
 class Header extends Component {
@@ -8,8 +9,8 @@ class Header extends Component {
 	render(){
 			var divstyles ={
 				backgroundColor: "#1A1818",
-				padding: '20px',
 				fontFamily: 'Dirty Brush',
+				padding: '15px',
 				position: 'fixed',
 				zIndex: '100',
   				top: '0',
@@ -19,12 +20,13 @@ class Header extends Component {
 		return(
 				<div>
 						<Sidebar />
-					<div style={divstyles}>
+					<div style={divstyles} id="header">
 						<Container>
-							<h1 style={{fontSize:'3em'}} className="heading"
+							<h1 className="heading"
 							 className="text-white text-center">
-							 <a href="#" style={{color:'white'
-							 ,textDecoration:'none'}}>BHAUKAL</a></h1>
+							 <a href="/" id="main-heading" >BHAUKAL</a></h1>
+							
+
 						</Container>
 							
 						</div>

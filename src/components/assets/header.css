@@ -1,0 +1,22 @@
+
+
+#main-heading{
+	color:white;
+	text-decoration: none;
+	font-size: 4rem;
+}
+
+
+@media (max-width: 746px){
+	.bm-icon,button {
+		display: none;
+	}
+	#header {
+		padding: 10px;
+
+	}
+	#main-heading{
+		font-size: 3rem;
+
+	}
+}

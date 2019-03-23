@@ -5,6 +5,7 @@ import Slide from './components/Slide.jsx';
 import Cardlist from './components/Cardlist.jsx';
 import Info from './components/Info.jsx';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { push as Menu } from 'react-burger-menu';
 
 class App extends Component {
   
@@ -16,10 +17,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <Header />
-       <Slide />
-      <Cardlist/>
-      <Info />
+        <Header />
+      <main id="page-wrap">
+           
+           <Slide />
+           <Cardlist/>
+           <Info />
+      </main>
+      
       </div>
     );
   }

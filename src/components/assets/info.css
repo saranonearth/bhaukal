@@ -1,21 +1,26 @@
+body {
+	overflow-x: hidden;
+}
 .whoarewe{
 	background: #1A1818;
 	height: 100vh;
 	width: 100%;
 }
+#About{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
 
 #main-title{
 	margin-top: 30px;
 	padding-bottom: 30px;
-	padding-top: 200px;
+	padding-top: 160px;
 	color: white;
 }
 
-#main-description{
+#main-desc{
 	color: white;
-	margin-top: 40px;
-	width: 95%;
-	
+	font-weight: 400;
 
 }
 
@@ -23,6 +28,7 @@
 	color: white;
 		margin-top: 20px;
 	margin-left: 75px;
+	margin-bottom: 30px;
 }
 
 #left{
@@ -40,4 +46,75 @@ footer{
 	color: white;
 	text-align: center;
 }
+.contact-section{
+	margin: 100px 0;
+	text-align: center;
+}
 
+
+#insta-logo{
+	max-width: 100px;
+}
+
+.section{
+	list-style: none;
+	padding:0;
+}
+
+.section li {
+	display: inline-block;
+}
+
+#insta-id{
+	color: #1A1818;
+	font-weight: bolder;
+	font-size: 2.5rem;
+	padding-left: 30px;
+	text-decoration: none;
+
+
+}	
+
+#insta-id:hover {
+	color: #5E5E5E;
+}
+
+
+@media (max-width: 748px){
+	.waw-img{
+		max-width: 100%;
+	}
+
+	#main-title{
+		padding-top: 90px;
+	}
+	
+	.waw-text{
+		text-align: center;
+
+	}
+	#right{
+		margin-left:50px;
+		margin-bottom: 20px;
+	}
+	#left{
+		margin-right: 50px; 
+	}
+	.section li{
+		display: block;
+	}
+	#insta-logo{
+
+		max-width: 50px;
+	}
+	#insta-id{
+		font-size: 1.5rem;
+		margin-left: 0;
+		padding:0;
+	}
+	.contact-section{
+	margin: 20px 0;
+
+}
+	
+}

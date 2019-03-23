@@ -1,8 +1,7 @@
 import React ,{Component} from 'react';
-import { bubble as Menu } from 'react-burger-menu';
+import { push as Menu } from 'react-burger-menu';
 import Button from './assets/mbutton.svg';
 import ScrollableAnchor from 'react-scrollable-anchor';
-
 
 class Sidebar extends Component {
 	 showSettings (event) {
@@ -66,7 +65,7 @@ class Sidebar extends Component {
 }
 
 		return (
-		      <Menu styles={ styles } noOverlay customBurgerIcon={ false }customBurgerIcon={ <img src={Button} /> }>
+		      <Menu pageWrapId={ "page-wrap" } styles={ styles } noOverlay customBurgerIcon={ false }customBurgerIcon={ <img src={Button} /> }>
 		        <a id="home" className="menu-item" href="/">Home</a>
 		        <a id="tshirts" className="menu-item" href="#T-Shirts">T-Shirts</a>
 		        <a id="waw" className="menu-item" href="#About">Who Are We?</a>

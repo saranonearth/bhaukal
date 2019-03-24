@@ -1,5 +1,5 @@
 {
-  "main.css": "/bhaukal/static/css/main.ffef4f6b.chunk.css",
+  "main.css": "/bhaukal/static/css/main.7feb8376.chunk.css",
   "main.js": "/bhaukal/static/js/main.92aaf0f0.chunk.js",
   "main.js.map": "/bhaukal/static/js/main.92aaf0f0.chunk.js.map",
   "runtime~main.js": "/bhaukal/static/js/runtime~main.b26ec618.js",
@@ -8,10 +8,11 @@
   "static/js/2.bb2fabbe.chunk.js": "/bhaukal/static/js/2.bb2fabbe.chunk.js",
   "static/js/2.bb2fabbe.chunk.js.map": "/bhaukal/static/js/2.bb2fabbe.chunk.js.map",
   "index.html": "/bhaukal/index.html",
-  "precache-manifest.2e92494c03adbef32ffa2402824ae415.js": "/bhaukal/precache-manifest.2e92494c03adbef32ffa2402824ae415.js",
+  "precache-manifest.c76e0e4fa6d87b27aa74ae7d9da04d27.js": "/bhaukal/precache-manifest.c76e0e4fa6d87b27aa74ae7d9da04d27.js",
   "service-worker.js": "/bhaukal/service-worker.js",
   "static/css/2.95a8f255.chunk.css.map": "/bhaukal/static/css/2.95a8f255.chunk.css.map",
-  "static/css/main.ffef4f6b.chunk.css.map": "/bhaukal/static/css/main.ffef4f6b.chunk.css.map",
+  "static/css/main.7feb8376.chunk.css.map": "/bhaukal/static/css/main.7feb8376.chunk.css.map",
+  "static/media/header.css": "/bhaukal/static/media/DB.abdbc394.ttf",
   "static/media/instagram.png": "/bhaukal/static/media/instagram.f5bf1e69.png",
   "static/media/mbutton.svg": "/bhaukal/static/media/mbutton.3098accc.svg"
 }

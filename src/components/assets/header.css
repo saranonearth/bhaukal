@@ -1,9 +1,15 @@
 
-
+@font-face{
+	font-family: "Dirty Brush";
+	src:url("./DB.ttf");
+	src:url("./DB.woff");
+	src:url("./DB.woff");
+}
 #main-heading{
 	color:white;
 	text-decoration: none;
 	font-size: 4rem;
+	font-family: Dirty Brush;
 }
 
 

@@ -81,6 +81,9 @@ footer{
 
 
 @media (max-width: 748px){
+	.whoarewe{
+		height: 130vh;
+	}
 	.waw-img{
 		max-width: 100%;
 	}

@@ -7,24 +7,22 @@ import Info from './components/Info.jsx';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { push as Menu } from 'react-burger-menu';
 
+
+
 class App extends Component {
-  
-    showSettings (event) {
-    event.preventDefault();
-  }
 
 
   render() {
     return (
+      
       <div className="App">
-        <Header />
+        <Header  />
       <main id="page-wrap">
            
-           <Slide />
+           <Slide/>
            <Cardlist/>
            <Info />
       </main>
-      
       </div>
     );
   }
